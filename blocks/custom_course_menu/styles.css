@@ -1,0 +1,173 @@
+.block_custom_course_menu .editingmode .editingicon {
+    font-size: 1.1em;
+    font-weight: bold;
+}
+.block_custom_course_menu .editingmode.editingoff .editingicon:after {
+    content: "\f204";
+}
+.block_custom_course_menu .editingmode.editingon .editingicon:after {
+    content: "\f205";
+}
+.block_custom_course_menu #custom_course_menu_interface {
+    clear: both;
+    float: right;
+    margin: -10px 5px;
+    text-decoration: none;
+}
+.block_custom_course_menu ul.custom_course_menu_category_list {
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+}
+.block_custom_course_menu input[type='text'] {
+    max-width: 250px;
+    width: 80%;
+}
+.handle {
+    cursor: move;
+}
+.excluded_courses {
+    cursor: default;
+}
+.block_custom_course_menu ul.course-sortable .placeholder {
+    border: 1px dashed #cdcdcd;
+    height: 1.3em;
+}
+.block_custom_course_menu ul.custom_course_menu_category_list ul.inconspicuous {
+    display: none;
+}
+.block_custom_course_menu ul.custom_course_menu_category_list li {
+    font-weight: bold;
+    list-style: none;
+    margin-bottom: 0;
+}
+.block_custom_course_menu ul.custom_course_menu_category_list li.inconspicuous .courselist_course span {
+    text-decoration: line-through;
+}
+.block_custom_course_menu ul.custom_course_menu_category_list ul {
+    list-style: none;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-top: 0;
+    padding-left: 0;
+}
+.block_custom_course_menu ul.custom_course_menu_category_list ul li {
+    font-weight: normal;
+    list-style: none;
+    margin-bottom: 0;
+    margin-left: 0.5em;
+}
+.block_custom_course_menu ul.custom_course_menu_list.inconspicuous,
+.block_custom_course_menu ul.custom_course_menu_list.collapsed {
+    display: none;
+}
+.block_custom_course_menu #adminsearchquery {
+    max-width: 92%;
+}
+.block_custom_course_menu #searchbutton {
+    margin: 5px;
+}
+.block_custom_course_menu .scrollable {
+    display: inline-block;
+    line-height: 20px;
+    max-width: 98%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+.block_custom_course_menu span.scrollable {
+    max-width: 90%;
+}
+.block_custom_course_menu .editing .scrollable {
+    max-width: 73%;
+}
+.block_custom_course_menu .scrollable span {
+    -moz-transition: left 5s, width 5s;
+    -webkit-transition: left 5s, width 5s;
+    -webkit-transition-delay: 1.5s; /* Safari */
+    left: 0;
+    position: relative;
+    transition: left 5s, width 5s;
+    transition-delay: 1.5s;
+    width: 100%;
+}
+.block_custom_course_menu .scrollable span:hover {
+    left: -100%;
+}
+.block_custom_course_menu .searchfield {
+    margin: 0;
+}
+/* Layout helpers
+----------------------------------*/
+.ui-helper-hidden {
+    display: none;
+}
+.ui-helper-hidden-accessible {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+.ui-helper-reset {
+    border: 0;
+    font-size: 100%;
+    line-height: 1.3;
+    list-style: none;
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    text-decoration: none;
+}
+.ui-helper-clearfix:before,
+.ui-helper-clearfix:after {
+    border-collapse: collapse;
+    content: "";
+    display: table;
+}
+.ui-helper-clearfix:after {
+    clear: both;
+}
+.ui-helper-clearfix {
+    min-height: 0; /* support: IE7 */
+}
+.ui-helper-zfix {
+    filter: alpha(Opacity=0);
+    height: 100%;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.ui-front {
+    z-index: 100;
+}
+/* Interaction Cues
+----------------------------------*/
+.ui-state-disabled {
+    cursor: default;
+}
+/* Icons
+----------------------------------*/
+/* states and images */
+.ui-icon {
+    background-repeat: no-repeat;
+    display: block;
+    overflow: hidden;
+    text-indent: -99999px;
+}
+/* Misc visuals
+----------------------------------*/
+/* Overlays */
+.ui-widget-overlay {
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
